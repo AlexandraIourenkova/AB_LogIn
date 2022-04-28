@@ -1,6 +1,7 @@
 package alphaBank.logIn.dao;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
 
 import alphaBank.logIn.model.AccountEntity;
 

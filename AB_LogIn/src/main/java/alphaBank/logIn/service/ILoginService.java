@@ -4,6 +4,8 @@ import alphaBank.logIn.dto.ResponseLoginDto;
 
 public interface ILoginService {
 
-	public ResponseLoginDto login(String login);
+	public ResponseLoginDto login(String login, String password);
+
+	public int getBalance(String id);
 	
 }

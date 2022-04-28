@@ -11,7 +11,6 @@ import lombok.Setter;
 @Setter
 
 public class ResponseLoginDto {
-	
-	String token;
+	String message;
 
 }
